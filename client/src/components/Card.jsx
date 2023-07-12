@@ -1,5 +1,6 @@
+/* eslint-disable react/prop-types */
 import { download } from "../assets";
-// import { downloadImage } from "../utils";
+import { downloadImage } from "../utils";
 
 const Card = ({ _id, name, prompt, photo }) => (
   <div className="rounded-xl group relative shadow-card hover:shadow-cardhover card">
